@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV - ILHAM ADJI BINTANG</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./asset/css/stylesheet.css" id="mode">
+	<link rel="stylesheet" type="text/css" href="./asset/css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="./asset/css/all.css">
+	<script src="./asset/js/main.js"></script>
+</head>
+<body>
+
+	<div class="mode"> 
+		Dark mode:              
+		<span class="change" onclick="swapStyleSheet()" value="dark" id="switch">ON</span> 
+	</div> 
+
+	<header>
+		<div class="menu-wrapper">
+			<div class="flex-menu">
+				<div class="menu-left">
+					<div class="menu-rectangle">
+						<a href="index.html">HOME</a>	
+					</div>
+					<div class="menu-rectangle">
+						<a href="#about">ABOUT</a>
+					</div>
+				</div>
+				<div class="menu-right">
+					<div class="menu-square">
+						<a href="#education">EDUCATION</a>
+					</div>
+					<div class="menu-square">
+						<a href="#work">WORK EXPERIENCE</a>
+					</div>
+					<div class="menu-square">
+						<a href="#skill">SKILLS</a>
+					</div>
+					<div class="menu-square">
+						<a href="#contact">CONTACT</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<div class="about-wrapper" id="about">
+		<div class="heading">
+			<h1>ABOUT</h1>
+		</div>
+		<div class="introduction">
+			<div class="contact-info">
+				<div class="info">
+					<p><span class="fas fa-id-card"></span> Ilham Adji Bintang</p>
+				</div>
+				<div class="info">
+					<p><span class="fas fa-calendar-alt"></span> 18-April-1997</p>
+				</div>
+				<div class="info">
+					<p><span class="fas fa-map-marked-alt"></span> Sumbawa, Sumbawa Besar, NTB</p>
+				</div>
+				<div class="info">
+					<p><span class="fas fa-phone-alt"></span> 085333956404</p>
+				</div>
+				<div class="info">
+					<p><span class="fas fa-at"></span> ilham.adji.bintang@gmail.com</p>
+				</div>
+			</div>
+			<div class="about-me">
+				<h1>Hello <span>,</span></h1>
+				<p>I'm <strong>Bintang</strong>, bachelor of <strong>Informatics Engineering</strong> from <strong>University of Surabaya</strong>.<br>
+				I'm highly motivated to be a <strong>participant</strong> in Glints Academy Bootcamp.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="education-wrapper" id="education">
+		<div class="heading-top">
+			<h1>EDUCATION</h1>
+		</div>
+		<div class="my-education">
+			<div class="edu">
+				<h1>VOCATIONAL HIGH SCHOOL 2 MATARAM</h1>
+				<h4>2012-2015</h4>
+				<p>Major in <strong>Software Engineering</Strong></p>
+				<p></p>
+			</div>
+			<div class="edu">
+				<h1>UNIVERSITY OF SURABAYA</h1>
+				<h4>2015-2020</h4>
+				<p>Major in <strong>Informatics Engineering</Strong><br></p>
+				<p>Undergraduate Thesis Title <b>Sentiment Analysis</b> of <b>Movie Review</b> Using <b>Naive Bayes</b> Classifier</p>
+			</div>
+		</div>
+		<div class="heading">
+			<h1>EDUCATION</h1>
+		</div>
+	</div>
+
+	<div class="work-experience-wrapper" id="work">
+		<div class="heading">
+			<h1>WORK EXPERIENCE</h1>
+		</div>
+		<div class="works">
+			<div class="work">
+				<h3>Technition - Intern</h3>
+				<h4>Mitra Technology Computer</h4>
+				<p>9 April 2014 - 10 Juni 2014 <br>
+					Mataram, Lombok, Nusa Tenggara Barat</p>
+				<ul>
+					<li>Software Instalation & Mantaince</li>
+					<li>Computer Assembly</li>
+					<li>Printer Installation</li>
+				</ul>
+			</div>
+			<div class="work">
+				<h3>Full-Stack Developer - Intern</h3>
+				<h4>PT. RBF Sekawan Supply</h4>
+				<p>2018<br>
+				Sambikerep, Surabaya, Jawa Timur</p>
+				<ul>
+					<li>Front-End Developer</li>
+					<li>Back-End Developer</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="skill-wrapper" id="skill">
+		<div class="heading-left">
+			<h1>SKILLS</h1>
+		</div>
+		<div class="skills">
+			<div class="skill">
+				<p><abbr title="Hypertext Markup Language">HTML</abbr></p>
+			</div>
+			<div class="skill">
+				<p><abbr title="Cascading Style Sheets">CSS</abbr></p>
+			</div>
+			<div class="skill">
+				<p>Javascript</p>
+			</div>
+		</div>
+		<div class="heading-right">
+			<h1>SKILLS</h1>
+		</div>
+	</div>
+
+	<div class="contact-wrapper" id="contact">
+		<div class="heading">
+			<h1>CONTACT</h1>
+		</div>
+		<form action="#">
+			<div class="text">
+				<div class="input-left">
+					<p>Name</p>
+					<input type="text" name="name" placeholder="Enter your name here" class="name" required="" pattern="[A-Za-z]">
+				</div>
+				<div class="input-right">
+					<p>Email</p>
+					<input type="email" name="email" placeholder="Enter your email here" required="">	
+				</div>
+			</div>
+			
+			<div class="txtarea">
+				<p>Message</p>
+				<textarea placeholder="Enter your message here" required=""></textarea>			
+			</div>
+	
+			<input type="submit" name="submit" value="Send Message" class="btn submit">
+		</form>
+	</div>
+		
+
+	<footer>
+		<div class="footer-left">
+			<p>&copy 2021 Glints Academy Scholarship</p>
+		</div>
+	</footer>
+
+</body>
+</html>

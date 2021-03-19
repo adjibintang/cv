@@ -1,0 +1,227 @@
+@media (max-width: 480px){
+	.mode {
+		font-size: 1rem;
+	}
+	header{
+		height: 100%;
+	}
+	.menu-wrapper{
+		height: 80%;
+	}
+	.menu-left{
+		width: 100%;
+	}
+	.menu-rectangle{
+		width: 100%;
+		height: 100%;
+	}
+	.menu-right{
+		width: 100%;
+	}
+	.menu-square{
+		width: 100%;
+		height: 100%;
+	}
+	.flex-menu a{
+		font-size: 2.1rem;
+		line-height: 5rem;
+	}
+	.heading h1{
+		font-size: 8vw;
+	}
+	.about-wrapper{
+		height: 100%;
+	}
+	.introduction{
+		height: 80%;
+	}
+	.about-me {
+		width: 100%;
+		padding-top: 10%;
+	}
+	.about-me p{
+		font-size: 1rem;
+	}
+	p{
+		font-size: 1.19rem;
+	}
+	.contact-info{
+		width: 100%;
+		border: none;
+	}
+	.info{
+		padding: 0 10%;
+	}
+
+	.education-wrapper{
+		height:100%;
+	}
+	.my-education{
+		width: 100%;
+		height: 100%;
+	}
+	.education-wrapper .heading{
+		display: none;
+	}
+	.education-wrapper .heading-top{
+		display: block;
+		margin: 0 auto;
+	}
+	.education-wrapper .heading-top h1{
+		display: block;
+		width: 100%;
+		margin:0;
+		letter-spacing: 2vw;
+	}
+	.my-education{
+		width: 100%;
+		height: 100%;
+	}
+	.edu{
+		width: 100%;
+		height: 40%;
+	}
+	.edu h1{
+		font-size: 1rem;
+	}
+	.edu p{
+		margin-top: 0;
+	}
+	.edu strong{
+		font-size: 1rem;	
+	}
+
+	.work-experience-wrapper{
+		height: 100%;
+	}
+	.works{
+		height: 80%;
+	}
+	.work{
+		width: 100%;
+		height: 50%;
+		padding: 0;
+	}
+	.work h3{
+		font-size: 5vw;
+	}
+	.work h4{
+		font-size: 4vw;
+	}
+	.work p,ul{
+		font-size: 3vw;
+	}
+	.skill-wrapper{
+		height: 100%;
+	}
+	.skill{
+		height: 38vw;
+	  	width: 38vw;
+	}
+	.skill p{
+		font-size: 5vw;
+	}
+
+  	.contact-wrapper{
+		width: 100%;
+		height: 100%;
+	}
+	.contact-wrapper form,input,textarea{
+		width: 100%;
+		display: inline-block;
+	}
+	.input-left{
+		width: 100%
+	}
+	.input-right{
+		width: 100%;
+	}
+}
+
+@media (min-width: 425px) and (max-width: 768px){
+	.contact-info{
+		width: 30%;
+	}
+	.about-me p{
+		font-size: 3vw;
+	}
+	.about-me h1{
+		font-size: 11vw;
+	}
+	.info p{
+		font-size: 1.8vw;
+	}
+	.works{
+		height: 80%;
+	}
+	.skill{
+		height: 20vw;
+	  	width: 20vw;
+	}
+	.skill p{
+		font-size: 2vw;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+	.works{
+		height: 80%;
+	}
+	.work{
+		height: 100%;
+	}
+	.skill{
+		height: 20vw;
+	  	width: 20vw;
+	}
+	.skill p{
+		font-size: 2vw;
+	}
+}
+@media (min-width: 1025px) and (max-width: 1440px){
+	.education-wrapper .heading h1{
+		font-size: 2.1vw;
+	}
+	.text input{
+		height: 40px;
+	}
+	.contact-wrapper textarea{
+		height: 200px;
+	}
+	.works{
+		height: 80%;
+	}
+	.work{
+		height: 100%;
+	}
+}
+@media (min-width:1441px) and (max-width: 2560px){
+	body{
+		font-size: 1vw;
+	}
+	.education-wrapper .heading h1{
+		font-size: 2.1vw;
+	}
+	.skill{
+		height: 20vw;
+	  	width: 20vw;
+	}
+	.skill p{
+		font-size: 2vw;
+	}
+	.works{
+		height: 80%;
+	}
+	.work{
+		height: 100%;
+	}
+	.contact-wrapper form,input,textarea{
+		font-size: 1vw;
+	}
+	.contact-wrapper input{
+		height: 60px;
+	}
+	.contact-wrapper textarea{
+		height: 300px;
+	}
+}
